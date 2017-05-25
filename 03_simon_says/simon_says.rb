@@ -20,7 +20,7 @@ def first_word(sentence)
 end
 
 def titleize(message)
-	small_words = ['and', 'of', 'from', 'to', 'a', 'the', 'over']
+	small_words = ['and', 'of', 'from', 'to', 'a', 'the', 'over', 'in', 'an']
 	message = message.split(" ")
 	for i in 0...message.length
 		if (i == 0 || (!small_words.include? message[i]))
